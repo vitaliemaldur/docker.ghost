@@ -1,0 +1,11 @@
+ghost:
+    build: ghost
+    environment: 
+      - NODE_ENV=production
+
+nginx:
+    build: nginx
+    links:
+      - ghost
+    ports:
+      - "80:80"
