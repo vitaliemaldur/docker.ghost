@@ -11,9 +11,10 @@ Get Dockerfiles
 
       $ git clone https://github.com/vitaliemaldur/docker.ghost
 
-Edit Ghost config
+Edit Ghost and Ngnix configuration files
 
       $ vim /path/to/docker.ghost/ghost/config.js
+      $ vim /path/to/docker.ghost/ngnix/ghost.conf
       
 Start containers
 
