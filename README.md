@@ -9,6 +9,10 @@ This is generic Ghost setup with a Ngnix front-end.
 ### Themes
 Add new themes in the `ghost/themes` folder. You will found two themes there, Casper and Ghostium.
 
+### Persistent data
+If you are using default SQLite database, you can found you db file in `ghost/data` directory. It is mapped as
+volume in Ghost container to make your db persistent on the host filesystem. 
+
 ### Installation
 Get Dockerfiles
 
