@@ -2,6 +2,8 @@ ghost:
     build: ghost
     environment: 
       - NODE_ENV=production
+    volumes:
+      - ghost/themes/:/var/lib/ghost/themes
 
 nginx:
     build: nginx
