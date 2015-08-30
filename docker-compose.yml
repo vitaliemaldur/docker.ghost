@@ -5,6 +5,7 @@ ghost:
     volumes:
       - ./ghost/themes/:/var/lib/ghost/themes
       - ./ghost/data/:/var/lib/ghost/data
+      - ./ghost/images/:/var/lib/ghost/images
 
 nginx:
     build: nginx

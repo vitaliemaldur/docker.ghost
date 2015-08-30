@@ -1,1 +1,2 @@
-ghost/data/ghost.db
+ghost/data/*
+ghost/images/*
