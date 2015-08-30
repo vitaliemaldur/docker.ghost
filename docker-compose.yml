@@ -4,6 +4,7 @@ ghost:
       - NODE_ENV=production
     volumes:
       - ghost/themes/:/var/lib/ghost/themes
+      - ghost/data/:/var/lib/ghost/data
 
 nginx:
     build: nginx
