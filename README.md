@@ -16,7 +16,7 @@ volume in Ghost container to make your db persistent on the host filesystem.
 ### Installation
 Get Dockerfiles
 
-      $ git clone https://github.com/vitaliemaldur/docker.ghost
+      $ git clone --recursive https://github.com/vitaliemaldur/docker.ghost
 
 Edit Ghost and Ngnix configuration files
 

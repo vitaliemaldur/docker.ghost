@@ -1,0 +1,3 @@
+[submodule "ghost/themes/ghostium"]
+	path = ghost/themes/ghostium
+	url = https://github.com/oswaldoacauan/ghostium.git
